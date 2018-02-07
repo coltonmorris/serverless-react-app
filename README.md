@@ -14,6 +14,7 @@ Run `sls deploy`
 ## TODO
 
 Use express to serve webpack bundle. Add `sls deploy` to npm build?
+[Look into serving string rather than file](https://github.com/trigun539/serverless-react-redux-ssr)
 
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
