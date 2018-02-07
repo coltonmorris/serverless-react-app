@@ -1,7 +1,7 @@
 # Setup
 
 Download credentials from GCP.
-  - Click **Api Credentials** on the right
+  - Click **Api Credentials** on the left
   - Create **Service Account Key**
   - Arbitrary name
   - Under **Role**, select **Project -> Owner** 

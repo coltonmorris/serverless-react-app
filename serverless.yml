@@ -22,9 +22,14 @@ functions:
   web:
     handler: test1
     events:
-      - http:
-        path: /
-        method: get
+      - http: path
+# functions:
+#   web:
+#     handler: test1
+#     events:
+#       - http:
+#         path: /
+#         method: get
 
 
 # functions: 
