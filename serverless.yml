@@ -19,10 +19,12 @@ package:
     - .git/**
 
 functions:
+  # this can only have a single handler, so must update this AND also the handler?
   web:
     handler: test1
     events:
       - http: path
+
 # functions:
 #   web:
 #     handler: test1

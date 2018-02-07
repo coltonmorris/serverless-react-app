@@ -15,6 +15,11 @@ Run `sls deploy`
 
 Use express to serve webpack bundle. Add `sls deploy` to npm build?
 [Look into serving string rather than file](https://github.com/trigun539/serverless-react-redux-ssr)
+---
+
+- build project like normal using webpack. This will output a `/build`. Then have a server (express) serve the `build`     
+`"webpack && babel-node server.js`    
+[The server.js will serve the stringified app](https://github.com/ButterCMS/react-ssr-example/blob/master/server.js)
 
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

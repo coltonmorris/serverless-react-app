@@ -1,5 +1,29 @@
-'use strict';
+import html from './src/index'
 
-exports.test1 = (request, response) => {
-  response.status(200).send('Colton was here')
+// module.exports.test1 = (req, res) => {
+module.exports.test1 = (event, context, callback) => {
+  const response = {
+		statusCode: 200,
+		headers: {
+			'Content-type': 'text/html'
+		},
+		body: html
+  }
+
+  callback(null, response)
 }
+
+// module.exports.test1 = (request, response) => {
+//   if (req.url === '') {
+//     res.send('FUCK YOU')
+//     return
+//     req.url = '/'
+//   }
+
+//   return app.prepare()
+//     .then(() => handle(req,res))
+//     .catch(ex => {
+//       console.error(ex.stack)
+//       process.exit(1)
+//     })
+// }
