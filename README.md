@@ -1,3 +1,19 @@
+# Setup
+
+Download credentials from GCP.
+  - Click **Api Credentials** on the right
+  - Create **Service Account Key**
+  - Arbitrary name
+  - Under **Role**, select **Project -> Owner** 
+  - Use JSON
+  - Save file to `~/.gcloud/serverless-keyfile.json`   
+
+Run `npm i`   
+Run `sls deploy`
+
+
+
+## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
