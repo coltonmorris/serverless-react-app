@@ -11,7 +11,9 @@ Download credentials from GCP.
 Run `npm i`   
 Run `sls deploy`
 
+## TODO
 
+Use express to serve webpack bundle. Add `sls deploy` to npm build?
 
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
